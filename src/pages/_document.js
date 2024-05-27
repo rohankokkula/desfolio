@@ -4,10 +4,10 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head />
-      <body>
+      <body className="scrollbar-hide">
         <Main />
         <NextScript />
-      </body>
+      </body>{" "}
     </Html>
   );
 }
