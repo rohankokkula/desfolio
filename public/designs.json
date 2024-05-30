@@ -1,0 +1,197 @@
+[{
+        "id": 1,
+        "images": [
+            { "src": "/images/day1.png", "alt": "Image 1" },
+            { "src": "/images/day1-1.png", "alt": "Image 1 - 2" }
+        ],
+        "title": "Task Management App",
+        "subtitle": "Replicating the design by @Lay on Dribble",
+        "tag": "App"
+    },
+    {
+        "id": 2,
+        "images": [
+            { "src": "/images/day2.png", "alt": "Image 2" },
+            { "src": "/images/day2-2.png", "alt": "Image 2" }
+        ],
+        "title": "Website design for Design Agency",
+        "subtitle": "Replicating the design by @Mudiful on Dribble",
+        "tag": "Website"
+    },
+    {
+        "id": 3,
+        "images": [
+            { "src": "/images/day3.png", "alt": "Image 2" },
+            { "src": "/images/day3-1.png", "alt": "Image 2" },
+            { "src": "/images/day3-2.png", "alt": "Image 2" },
+            { "src": "/images/day3-3.png", "alt": "Image 2" }
+        ],
+        "title": "Analytics Dashboard",
+        "subtitle": "Replicating the design by @Mudiful on Dribble",
+        "tag": "Dashboard"
+    },
+    {
+        "id": 4,
+        "images": [
+            { "src": "/images/day4.png", "alt": "Image 2" }
+        ],
+        "title": "Typographic Graphic Design",
+        "subtitle": "Typography",
+        "tag": "Poster"
+    },
+    {
+        "id": 5,
+        "images": [
+            { "src": "/images/day5.png", "alt": "Image 2" }
+        ],
+        "title": "Music Equalizer",
+        "subtitle": "Graphic Design",
+        "tag": "Graphic Design"
+    },
+    {
+        "id": 6,
+        "images": [
+            { "src": "/images/day6.png", "alt": "Image 2" },
+            { "src": "/images/day6-1.png", "alt": "Image 2" }
+        ],
+        "title": "Finance App Design",
+        "subtitle": "Replicated from @Lay on Dribbble",
+        "tag": "App"
+    },
+    {
+        "id": 7,
+        "images": [
+            { "src": "/images/day7.png", "alt": "Image 2" }
+        ],
+        "title": "Typographic Graphic Design",
+        "subtitle": "Typography",
+        "tag": "Website"
+    },
+    {
+        "id": 8,
+        "images": [
+            { "src": "/images/day8.png", "alt": "Image 2" },
+            { "src": "/images/day8-1.png", "alt": "Image 2" }
+        ],
+        "title": "Card Management App",
+        "subtitle": "Recreated by @Lay on Dribbble",
+        "tag": "App"
+    },
+    {
+        "id": 9,
+        "images": [
+            { "src": "/images/day9.png", "alt": "Image 2" },
+            { "src": "/images/day9-1.png", "alt": "Image 2" }
+        ],
+        "title": "Payments Dashboard",
+        "subtitle": "Recreated by @Lay on Dribbble",
+        "tag": "App"
+    },
+    {
+        "id": 10,
+        "images": [
+            { "src": "/images/day10.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 11,
+        "images": [
+            { "src": "/images/day11.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 12,
+        "images": [
+            { "src": "/images/day12.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 13,
+        "images": [
+            { "src": "/images/day13.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 14,
+        "images": [
+            { "src": "/images/day14.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 15,
+        "images": [
+            { "src": "/images/day15.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 16,
+        "images": [
+            { "src": "/images/day16.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 17,
+        "images": [
+            { "src": "/images/day17.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 18,
+        "images": [
+            { "src": "/images/day18.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    }, {
+        "id": 19,
+        "images": [
+            { "src": "/images/day19.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 20,
+        "images": [
+            { "src": "/images/day20.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    },
+    {
+        "id": 21,
+        "images": [
+            { "src": "/images/day10.png", "alt": "Image 2" }
+        ],
+        "title": "Isometric Design",
+        "subtitle": "Isometric Design inspired by the book 'Steal like an Artist'",
+        "tag": "App"
+    }
+]
