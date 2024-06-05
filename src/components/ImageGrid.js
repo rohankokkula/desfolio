@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import Image from 'next/image';
 import Modal from './Modal';
+import { useTheme } from '../context/ThemeContext';
 
 const ImageGrid = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,6 +9,7 @@ const ImageGrid = () => {
   const [selectedTag, setSelectedTag] = useState(null);
   const [images, setImages] = useState([]);
   const [flattenedImages, setFlattenedImages] = useState([]);
+  const { theme } = useTheme();
 
   useEffect(() => {
     fetch('/designs.json')
@@ -50,13 +52,17 @@ const ImageGrid = () => {
   const filteredImages = selectedTag ? images.filter(image => image.tag === selectedTag) : images;
 
   return (
-    <div className="min-h-screen p-4">
-    
-
+    <div
+      className={`min-h-screen p-4 ${
+        theme === 'dark' ? 'bg-black text-white' : 'bg-white text-black'
+      } transition-colors duration-300`}
+    >
       <div className="mb-4 flex items-center justify-center">
         <div className="flex flex-wrap gap-2">
           <button
-            className={`px-4 py-2 rounded-md ${selectedTag === null ? 'bg-gray-900 text-white' : 'bg-black hover:bg-gray-700'}`}
+            className={`px-4 py-2 rounded-md ${
+              selectedTag === null ? 'bg-gray-900 text-white' : 'bg-black hover:bg-gray-700'
+            }`}
             onClick={() => filterByTag(null)}
           >
             All
@@ -64,7 +70,9 @@ const ImageGrid = () => {
           {[...new Set(images.map(image => image.tag))].map(tag => (
             <button
               key={tag}
-              className={`px-4 py-2 rounded-md ${selectedTag === tag ? 'bg-gray-900 text-white' : 'bg-black hover:bg-gray-700'}`}
+              className={`px-4 py-2 rounded-md ${
+                selectedTag === tag ? 'bg-gray-900 text-white' : 'bg-black hover:bg-gray-700'
+              }`}
               onClick={() => filterByTag(tag)}
             >
               {tag}
@@ -80,13 +88,13 @@ const ImageGrid = () => {
             className="relative w-full h-[500px] cursor-pointer rounded-lg overflow-hidden group"
             onClick={() => openModal(flattenedImages.findIndex(img => img.itemIndex === index))}
           >
-           <div className="absolute inset-0 bg-gradient-to-b from-[#2f82e700] to-[#000000] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
-<div className="absolute bottom-0 left-0  p-4 w-full">
-              <p className="text-white text-lg font-bold">{image.title}</p>
-              <p className="text-white text-sm">{image.subtitle}</p>
+            <div className="absolute inset-0 bg-gradient-to-b from-[#2f82e700] to-[#000000] opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg"></div>
+            <div className="absolute bottom-0 left-0  p-4 w-full">
+              <p className="text-lg font-bold">{image.title}</p>
+              <p className="text-sm">{image.subtitle}</p>
             </div>
             <div className="absolute bottom-0 right-0  p-4">
-              <p className="text-white text-sm">{image.tag}</p>
+              <p className="text-sm">{image.tag}</p>
             </div>
             <Image
               src={image.images[0].src}
